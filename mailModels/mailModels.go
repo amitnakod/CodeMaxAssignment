@@ -7,3 +7,9 @@ type mailtemplate struct {
   Bcc string 
   message string 
 }
+
+type config struct {
+  mailservicepro string
+  publicKey string
+  secretKey string
+}

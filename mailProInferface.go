@@ -1,5 +1,7 @@
 package main
 
+import "mailModels"
+
 type imailservice interface{
-  send 
+  send (msg mailtemplate)
 }
