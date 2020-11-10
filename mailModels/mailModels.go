@@ -9,8 +9,8 @@ type mailtemplate struct {
   message string 
 }
 
-type config struct {
-  mailservicepro string
-  publicKey string
-  secretKey string
+type Config struct {
+  mailservicepro string `yaml:"mailservicepro"`
+  publicKey string `yaml:"publicKey"`
+  secretKey string `yaml:"secretKey"`
 }
